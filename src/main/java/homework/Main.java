@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         try {
 
-            // Establish the connection
+
             connection = DriverManager.getConnection(DB_CONNECTION, DB_USER, DB_PASSWORD);
             if (connection != null) {
                 System.out.println("Connected to the database successfully");
